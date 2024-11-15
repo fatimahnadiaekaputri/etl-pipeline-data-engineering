@@ -7,13 +7,20 @@ import os
 
 driver = webdriver.Chrome()
 
-def extract_all_products(url):
+def extract_all_products(url, max_pages=30):
+    """
+    Fungsi untuk mengekstrak produk dari halaman web tertentu.
+    :param url: URL dari halaman web yang akan di-scrape.
+    :param max_pages: Jumlah halaman maksimum yang akan di-scrape (default: 30).
+    """
     driver.get(url)
     time.sleep(5)  # Initial wait to allow page to load
 
     products = []
 
-    for page in range(1, 4):  # Limit to pages 1 through 3
+    for page in range(1, max_pages + 1):  # Iterasi hingga halaman maksimum
+        print(f"Scraping page {page}/{max_pages} for URL: {url}...")
+
         # Scroll down the page to load more products
         scroll_pause_time = 3
         screen_height = driver.execute_script("return window.screen.height;")
@@ -70,19 +77,41 @@ def extract_all_products(url):
     df = pd.DataFrame(products)
     return df
 
-url = 'https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/azarine-calm-my-acne-sunscreen-moisturizer-1'
-data_df = extract_all_products(url)
-print(data_df)
+def scrape_multiple_urls(configurations):
+    """
+    Fungsi untuk menjalankan scraping untuk beberapa URL.
+    :param configurations: List dari konfigurasi berupa dict {url, max_pages, output_file}.
+    """
+    for config in configurations:
+        print(f"Processing URL: {config['url']} with max_pages: {config['max_pages']}...")
+        df = extract_all_products(config['url'], config['max_pages'])
 
-# Path untuk menyimpan hasil scraping
-output_folder = '../result scrapping data'
-output_path = os.path.join(output_folder, 'Data Skincare Azarine Female Daily (3 pages).csv')
+        # Membuat folder jika belum ada
+        output_folder = './result scrapping data'
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
 
-# Membuat folder jika belum ada
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
+        # Save to CSV
+        output_path = os.path.join(output_folder, config['output_file'])
+        df.to_csv(output_path, encoding='utf-8', index=True)
+        print(f"Saved data to {output_path}")
 
-# Save to CSV
-data_df.to_csv(output_path, encoding='utf-8', index=True)
+# Daftar konfigurasi scraping
+scraping_configs = [
+    {
+        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydramax-c-sunscreen-serum-spf-50-pa-blueloght-protection-brightening-1",
+        "max_pages": 2,
+        "output_file": "Hydramax_C_Sunscreen.csv"
+    },
+    {
+        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydrashoothe-sunscreen-gel-spf45-3",
+        "max_pages": 3,
+        "output_file": "Hydrashoothe_Sunscreen.csv"
+    },
+]
 
+# Jalankan scraping
+scrape_multiple_urls(scraping_configs)
+
+# Tutup driver setelah selesai
 driver.quit()
