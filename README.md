@@ -1,4 +1,4 @@
-# Tugas Rekayasa Data 2025 Semester Ganjil End-to-End Data Engineering
+# Tugas Rekayasa Data End-to-End Data Engineering
 Data Pipeline ETL dengan topik:
 "Azarine vs. Skinaqua:  Mengungkap Tren Preferensi Konsumen Indonesia Terhadap Brand Sunscreen Lokal dan Internasional Menggunakan Clustering Model"
 
