@@ -75,7 +75,7 @@ data_df = extract_all_products(url)
 print(data_df)
 
 # Path untuk menyimpan hasil scraping
-output_folder = '../result scrapping data'
+output_folder = './data scrapping'
 output_path = os.path.join(output_folder, 'Data Skincare Azarine Calm My Acne Sunscreen Moisturizer.csv')
 
 # Membuat folder jika belum ada

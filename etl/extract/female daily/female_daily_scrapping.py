@@ -87,7 +87,7 @@ def scrape_multiple_urls(configurations):
         df = extract_all_products(config['url'], config['max_pages'])
 
         # Membuat folder jika belum ada
-        output_folder = './result scrapping data'
+        output_folder = './data scrapping'
         if not os.path.exists(output_folder):
             os.makedirs(output_folder)
 
