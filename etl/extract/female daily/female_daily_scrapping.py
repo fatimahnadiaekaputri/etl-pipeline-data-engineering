@@ -17,12 +17,13 @@ def extract_all_products(url, max_pages=30):
     time.sleep(5)  # Initial wait to allow page to load
 
     products = []
+    seen_dates = {}
 
     for page in range(1, max_pages + 1):  # Iterasi hingga halaman maksimum
         print(f"Scraping page {page}/{max_pages} for URL: {url}...")
 
         # Scroll down the page to load more products
-        scroll_pause_time = 3
+        scroll_pause_time = 2
         screen_height = driver.execute_script("return window.screen.height;")
         scroll_height = 0
 
@@ -43,31 +44,41 @@ def extract_all_products(url, max_pages=30):
             break
 
         for section in sections:
-            # Menghitung jumlah bintang penuh (rating)
-            full_stars_margin = section.find_all('i', class_='icon-ic_big_star_full margin-right')
-            full_stars = section.find_all('i', class_='icon-ic_big_star_full')
-            star_count = len(full_stars_margin) + (1 if len(full_stars) > len(full_stars_margin) else 0)  # Tambahkan bintang kelima jika ada
-            # Extract information based on provided class names
-            username_tag = section.find('p', class_='profile-username')
-            age_tag = section.find('p', class_='profile-age')
-            profile_description_tag = section.find('p', class_='profile-description')
+            # Mengambil tanggal review
             date_tag = section.find('p', class_='review-date')
-            review_content_tag = section.find('p', class_='text-content')
-            usage_period_tag = section.find('div', class_='information-wrapper').find('b') if section.find('div', class_='information-wrapper') else None
-            purchase_point_tag = section.find('div', class_='information-wrapper').find_all('b')[1] if section.find('div', class_='information-wrapper') and len(section.find('div', class_='information-wrapper').find_all('b')) > 1 else None
-            recommend_tag = section.find('p', class_='recommend').find('b') if section.find('p', class_='recommend') else None
+            review_date = date_tag.text.strip() if date_tag else None
 
-            products.append({
-                "username": username_tag.text.strip() if username_tag else None,
-                "age": age_tag.text.strip() if age_tag else None,
-                "profile_description": profile_description_tag.text.strip() if profile_description_tag else None,
-                "date": date_tag.text.strip() if date_tag else None,
-                "review_content": review_content_tag.text.strip() if review_content_tag else None,
-                "usage_period": usage_period_tag.text.strip() if usage_period_tag else None,
-                "purchase_point": purchase_point_tag.text.strip() if purchase_point_tag else None,
-                "recommend": recommend_tag.text.strip() if recommend_tag else None,
-                "rating_count": star_count  # Menyimpan jumlah bintang penuh
-            })
+            # Jika tanggal belum pernah dilihat atau jumlah review kurang dari 2 untuk tanggal tersebut
+            if review_date and seen_dates.get(review_date, 0) < 2:
+                # Menghitung jumlah bintang penuh (rating)
+                full_stars_margin = section.find_all('i', class_='icon-ic_big_star_full margin-right')
+                full_stars = section.find_all('i', class_='icon-ic_big_star_full')
+                star_count = len(full_stars_margin) + (1 if len(full_stars) > len(full_stars_margin) else 0)
+
+                # Extract informasi lain
+                username_tag = section.find('p', class_='profile-username')
+                age_tag = section.find('p', class_='profile-age')
+                profile_description_tag = section.find('p', class_='profile-description')
+                review_content_tag = section.find('p', class_='text-content')
+                usage_period_tag = section.find('div', class_='information-wrapper').find('b') if section.find('div', class_='information-wrapper') else None
+                purchase_point_tag = section.find('div', class_='information-wrapper').find_all('b')[1] if section.find('div', class_='information-wrapper') and len(section.find('div', class_='information-wrapper').find_all('b')) > 1 else None
+                recommend_tag = section.find('p', class_='recommend').find('b') if section.find('p', class_='recommend') else None
+
+                products.append({
+                    "username": username_tag.text.strip() if username_tag else None,
+                    "age": age_tag.text.strip() if age_tag else None,
+                    "profile_description": profile_description_tag.text.strip() if profile_description_tag else None,
+                    "date": review_date,
+                    "review_content": review_content_tag.text.strip() if review_content_tag else None,
+                    "usage_period": usage_period_tag.text.strip() if usage_period_tag else None,
+                    "purchase_point": purchase_point_tag.text.strip() if purchase_point_tag else None,
+                    "recommend": recommend_tag.text.strip() if recommend_tag else None,
+                    "rating_count": star_count
+                })
+
+                # Perbarui jumlah review untuk tanggal tersebut
+                seen_dates[review_date] = seen_dates.get(review_date, 0) + 1
+
 
         # Try to click the "Next" button to move to the next page
         try:
@@ -118,21 +129,21 @@ scraping_configs = [
     #     "max_pages": 3,
     #     "output_file": "Review Azarine Hydrashoote Sunscreen Gel.csv"
     # },
-    {
-        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-whitening-milk",
-        "max_pages": 29,
-        "output_file": "Review Skinaqua UV Whitening Milk.csv" 
-    },
+    # {
+    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-whitening-milk",
+    #     "max_pages": 29,
+    #     "output_file": "Review Skinaqua UV Whitening Milk.csv" 
+    # },
     # {
     #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-moisture-gel-69",
     #     "max_pages": 9,
     #     "output_file": "Review Skinaqua UV Moisture Gel.csv"  
     # },
-    # {
-    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-moisture-milk",
-    #     "max_pages": 101,
-    #     "output_file": "Review Skinaqua UV Moisture Milk.csv" 
-    # }
+    {
+        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-moisture-milk",
+        "max_pages": 101,
+        "output_file": "Review Skinaqua UV Moisture Milk.csv" 
+    }
 
 ]
 
