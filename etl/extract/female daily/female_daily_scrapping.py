@@ -103,21 +103,37 @@ def scrape_multiple_urls(configurations):
 
 # Daftar konfigurasi scraping
 scraping_configs = [
-    {
-        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/azarine-calm-my-acne-sunscreen-moisturizer-1",
-        "max_pages": 30,
-        "output_file": "Review Azarine Calm My Acne Sunscreen Moisturizer.csv"
-    },
-    {
-        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydramax-c-sunscreen-serum-spf-50-pa-blueloght-protection-brightening-1",
-        "max_pages": 19,
-        "output_file": "Review Azarine Hydramax C Sunscreen Serum.csv"
-    },
+    # {
+    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/azarine-calm-my-acne-sunscreen-moisturizer-1",
+    #     "max_pages": 30,
+    #     "output_file": "Review Azarine Calm My Acne Sunscreen Moisturizer.csv"
+    # },
+    # {
+    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydramax-c-sunscreen-serum-spf-50-pa-blueloght-protection-brightening-1",
+    #     "max_pages": 19,
+    #     "output_file": "Review Azarine Hydramax C Sunscreen Serum.csv"
+    # },
     # {
     #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydrashoothe-sunscreen-gel-spf45-3",
     #     "max_pages": 3,
     #     "output_file": "Review Azarine Hydrashoote Sunscreen Gel.csv"
     # },
+    {
+        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-whitening-milk",
+        "max_pages": 29,
+        "output_file": "Review Skinaqua UV Whitening Milk.csv" 
+    },
+    # {
+    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-moisture-gel-69",
+    #     "max_pages": 9,
+    #     "output_file": "Review Skinaqua UV Moisture Gel.csv"  
+    # },
+    # {
+    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-moisture-milk",
+    #     "max_pages": 101,
+    #     "output_file": "Review Skinaqua UV Moisture Milk.csv" 
+    # }
+
 ]
 
 # Jalankan scraping
