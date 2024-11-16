@@ -1,0 +1,95 @@
+2024-11-17 02:39:54,694 - Error saat menghubungkan ke database: No module named 'psycopg2'
+2024-11-17 02:41:53,389 - Error saat menghubungkan ke database: No module named 'psycopg2'
+2024-11-17 02:51:03,375 - Error saat menghubungkan ke database: No module named 'psycopg2'
+2024-11-17 03:23:03,838 - Error saat menghubungkan ke database: DLL load failed while importing _psycopg: The specified module could not be found.
+2024-11-17 03:25:13,677 - Error saat menghubungkan ke database: DLL load failed while importing _psycopg: The specified module could not be found.
+2024-11-17 03:27:43,442 - Error saat menghubungkan ke database: DLL load failed while importing _psycopg: The specified module could not be found.
+2024-11-17 03:29:22,582 - Error saat menghubungkan ke database: DLL load failed while importing _psycopg: The specified module could not be found.
+2024-11-17 03:39:40,140 - Error saat menghubungkan ke database: DLL load failed while importing _psycopg: The specified module could not be found.
+2024-11-17 03:42:47,015 - Error saat menghubungkan ke database: DLL load failed while importing _psycopg: The specified module could not be found.
+2024-11-17 03:48:16,212 - Koneksi ke database Supabase berhasil.
+2024-11-17 03:48:16,212 - Folder data_scrapping tidak ditemukan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\data_scrapping.
+2024-11-17 03:49:06,533 - Koneksi ke database Supabase berhasil.
+2024-11-17 03:49:06,533 - Folder data_scrapping tidak ditemukan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\data_scrapping.
+2024-11-17 03:50:42,420 - Koneksi ke database Supabase berhasil.
+2024-11-17 03:50:42,421 - Memuat data dari FemaleDaily_Data Skincare Azarine Calm My Acne Sunscreen Moisturizer.csv...
+2024-11-17 03:50:42,457 - Data femaledaily_data_skincare_azarine_calm_my_acne_sunscreen_moisturizer berhasil dimuat. Jumlah baris: 290
+2024-11-17 03:50:42,675 - Error saat mengunggah data dari FemaleDaily_Data Skincare Azarine Calm My Acne Sunscreen Moisturizer.csv ke tabel 'femaledaily_data_skincare_azarine_calm_my_acne_sunscreen_moisturizer': Identifier 'femaledaily_data_skincare_azarine_calm_my_acne_sunscreen_moisturizer' exceeds maximum length of 63 characters
+2024-11-17 03:50:42,675 - Memuat data dari FemaleDaily_Review Azarine Calm My Acne Sunscreen Moisturizer.csv...
+2024-11-17 03:50:42,700 - Data femaledaily_review_azarine_calm_my_acne_sunscreen_moisturizer berhasil dimuat. Jumlah baris: 300
+2024-11-17 03:51:58,445 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_calm_my_acne_sunscreen_moisturizer'.
+2024-11-17 03:51:58,445 - Memuat data dari FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv...
+2024-11-17 03:51:58,496 - Data femaledaily_review_azarine_hydramax_c_sunscreen_serum berhasil dimuat. Jumlah baris: 190
+2024-11-17 03:52:16,391 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_hydramax_c_sunscreen_serum'.
+2024-11-17 03:52:16,391 - Memuat data dari FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel 2.csv...
+2024-11-17 03:52:16,414 - Data femaledaily_review_azarine_hydrashoote_sunscreen_gel_2 berhasil dimuat. Jumlah baris: 248
+2024-11-17 03:52:43,639 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_hydrashoote_sunscreen_gel_2'.
+2024-11-17 03:52:43,639 - Memuat data dari FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv...
+2024-11-17 03:52:43,656 - Data femaledaily_review_azarine_hydrashoote_sunscreen_gel berhasil dimuat. Jumlah baris: 194
+2024-11-17 03:53:01,251 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_hydrashoote_sunscreen_gel'.
+2024-11-17 03:53:01,252 - Memuat data dari FemaleDaily_Review Skinaqua UV Moisture Gel.csv...
+2024-11-17 03:53:01,276 - Data femaledaily_review_skinaqua_uv_moisture_gel berhasil dimuat. Jumlah baris: 90
+2024-11-17 03:53:10,875 - Data berhasil diunggah ke tabel 'femaledaily_review_skinaqua_uv_moisture_gel'.
+2024-11-17 03:53:10,875 - Memuat data dari FemaleDaily_Review Skinaqua UV Moisture Milk.csv...
+2024-11-17 03:53:10,891 - Data femaledaily_review_skinaqua_uv_moisture_milk berhasil dimuat. Jumlah baris: 272
+2024-11-17 03:54:11,902 - Data berhasil diunggah ke tabel 'femaledaily_review_skinaqua_uv_moisture_milk'.
+2024-11-17 03:54:11,902 - Memuat data dari FemaleDaily_Review Skinaqua UV Whitening Milk.csv...
+2024-11-17 03:54:11,921 - Data femaledaily_review_skinaqua_uv_whitening_milk berhasil dimuat. Jumlah baris: 290
+2024-11-17 03:54:38,798 - Data berhasil diunggah ke tabel 'femaledaily_review_skinaqua_uv_whitening_milk'.
+2024-11-17 03:54:38,799 - Memuat data dari pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv...
+2024-11-17 03:54:38,855 - Data pytrends_azarine_azarine_hm-c_sunsc_srm_spf50_pa++++_40ml berhasil dimuat. Jumlah baris: 262
+2024-11-17 03:55:20,546 - Data berhasil diunggah ke tabel 'pytrends_azarine_azarine_hm-c_sunsc_srm_spf50_pa++++_40ml'.
+2024-11-17 03:55:20,546 - Memuat data dari pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv...
+2024-11-17 03:55:20,580 - Data pytrends_calm_my_acne_sunscreen_moisturiser_spf_35_pa+++ berhasil dimuat. Jumlah baris: 262
+2024-11-17 03:55:44,115 - Data berhasil diunggah ke tabel 'pytrends_calm_my_acne_sunscreen_moisturiser_spf_35_pa+++'.
+2024-11-17 03:55:44,115 - Memuat data dari pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv...
+2024-11-17 03:55:44,137 - Data pytrends_hydrashoothe_sunscreen_gel_spf45+++ berhasil dimuat. Jumlah baris: 262
+2024-11-17 03:56:07,512 - Data berhasil diunggah ke tabel 'pytrends_hydrashoothe_sunscreen_gel_spf45+++'.
+2024-11-17 03:56:07,513 - Memuat data dari pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv...
+2024-11-17 03:56:07,565 - Data pytrends_skin_aqua_skin_aqua_uv_whitening_milk_spf_50_40ml berhasil dimuat. Jumlah baris: 262
+2024-11-17 03:56:30,249 - Data berhasil diunggah ke tabel 'pytrends_skin_aqua_skin_aqua_uv_whitening_milk_spf_50_40ml'.
+2024-11-17 03:56:30,249 - Memuat data dari pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv...
+2024-11-17 03:56:30,268 - Data pytrends_skin_aqua_super_moisture_milk_sunscreen_pa++++_40ml berhasil dimuat. Jumlah baris: 262
+2024-11-17 03:56:52,605 - Data berhasil diunggah ke tabel 'pytrends_skin_aqua_super_moisture_milk_sunscreen_pa++++_40ml'.
+2024-11-17 03:56:52,606 - Proses upload selesai.
+2024-11-17 04:05:45,859 - Koneksi ke database Supabase berhasil.
+2024-11-17 04:05:45,860 - Memuat data dari FemaleDaily_Data Skincare Azarine Calm My Acne Sunscreen Moisturizer.csv...
+2024-11-17 04:05:45,871 - Data femaledaily_data_skincare_azarine_calm_my_acne_sunscreen_moisturizer berhasil dimuat. Jumlah baris: 290
+2024-11-17 04:05:46,088 - Error saat mengunggah data dari FemaleDaily_Data Skincare Azarine Calm My Acne Sunscreen Moisturizer.csv ke tabel 'femaledaily_data_skincare_azarine_calm_my_acne_sunscreen_moisturizer': Identifier 'femaledaily_data_skincare_azarine_calm_my_acne_sunscreen_moisturizer' exceeds maximum length of 63 characters
+2024-11-17 04:05:46,088 - Memuat data dari FemaleDaily_Review Azarine Calm My Acne Sunscreen Moisturizer.csv...
+2024-11-17 04:05:46,098 - Data femaledaily_review_azarine_calm_my_acne_sunscreen_moisturizer berhasil dimuat. Jumlah baris: 300
+2024-11-17 04:06:15,836 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_calm_my_acne_sunscreen_moisturizer'.
+2024-11-17 04:06:15,836 - Memuat data dari FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv...
+2024-11-17 04:06:15,842 - Data femaledaily_review_azarine_hydramax_c_sunscreen_serum berhasil dimuat. Jumlah baris: 190
+2024-11-17 04:06:36,056 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_hydramax_c_sunscreen_serum'.
+2024-11-17 04:06:36,056 - Memuat data dari FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel 2.csv...
+2024-11-17 04:06:36,064 - Data femaledaily_review_azarine_hydrashoote_sunscreen_gel_2 berhasil dimuat. Jumlah baris: 248
+2024-11-17 04:07:00,914 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_hydrashoote_sunscreen_gel_2'.
+2024-11-17 04:07:00,914 - Memuat data dari FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv...
+2024-11-17 04:07:00,920 - Data femaledaily_review_azarine_hydrashoote_sunscreen_gel berhasil dimuat. Jumlah baris: 194
+2024-11-17 04:07:20,531 - Data berhasil diunggah ke tabel 'femaledaily_review_azarine_hydrashoote_sunscreen_gel'.
+2024-11-17 04:07:20,531 - Memuat data dari FemaleDaily_Review Skinaqua UV Moisture Gel.csv...
+2024-11-17 04:07:20,537 - Data femaledaily_review_skinaqua_uv_moisture_gel berhasil dimuat. Jumlah baris: 90
+2024-11-17 04:07:30,967 - Data berhasil diunggah ke tabel 'femaledaily_review_skinaqua_uv_moisture_gel'.
+2024-11-17 04:07:30,967 - Memuat data dari FemaleDaily_Review Skinaqua UV Moisture Milk.csv...
+2024-11-17 04:07:30,974 - Data femaledaily_review_skinaqua_uv_moisture_milk berhasil dimuat. Jumlah baris: 272
+2024-11-17 04:07:58,956 - Data berhasil diunggah ke tabel 'femaledaily_review_skinaqua_uv_moisture_milk'.
+2024-11-17 04:07:58,956 - Memuat data dari FemaleDaily_Review Skinaqua UV Whitening Milk.csv...
+2024-11-17 04:07:58,962 - Data femaledaily_review_skinaqua_uv_whitening_milk berhasil dimuat. Jumlah baris: 290
+2024-11-17 04:08:28,035 - Data berhasil diunggah ke tabel 'femaledaily_review_skinaqua_uv_whitening_milk'.
+2024-11-17 04:08:28,035 - Memuat data dari pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv...
+2024-11-17 04:08:28,039 - Data pytrends_azarine_azarine_hm-c_sunsc_srm_spf50_pa++++_40ml berhasil dimuat. Jumlah baris: 262
+2024-11-17 04:08:53,254 - Data berhasil diunggah ke tabel 'pytrends_azarine_azarine_hm-c_sunsc_srm_spf50_pa++++_40ml'.
+2024-11-17 04:08:53,254 - Memuat data dari pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv...
+2024-11-17 04:08:53,257 - Data pytrends_calm_my_acne_sunscreen_moisturiser_spf_35_pa+++ berhasil dimuat. Jumlah baris: 262
+2024-11-17 04:09:20,243 - Data berhasil diunggah ke tabel 'pytrends_calm_my_acne_sunscreen_moisturiser_spf_35_pa+++'.
+2024-11-17 04:09:20,243 - Memuat data dari pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv...
+2024-11-17 04:09:20,246 - Data pytrends_hydrashoothe_sunscreen_gel_spf45+++ berhasil dimuat. Jumlah baris: 262
+2024-11-17 04:09:47,209 - Data berhasil diunggah ke tabel 'pytrends_hydrashoothe_sunscreen_gel_spf45+++'.
+2024-11-17 04:09:47,209 - Memuat data dari pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv...
+2024-11-17 04:09:47,212 - Data pytrends_skin_aqua_skin_aqua_uv_whitening_milk_spf_50_40ml berhasil dimuat. Jumlah baris: 262
+2024-11-17 04:10:13,574 - Data berhasil diunggah ke tabel 'pytrends_skin_aqua_skin_aqua_uv_whitening_milk_spf_50_40ml'.
+2024-11-17 04:10:13,575 - Memuat data dari pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv...
+2024-11-17 04:10:13,578 - Data pytrends_skin_aqua_super_moisture_milk_sunscreen_pa++++_40ml berhasil dimuat. Jumlah baris: 262
+2024-11-17 04:10:40,291 - Data berhasil diunggah ke tabel 'pytrends_skin_aqua_super_moisture_milk_sunscreen_pa++++_40ml'.
+2024-11-17 04:10:40,291 - Proses upload selesai.
