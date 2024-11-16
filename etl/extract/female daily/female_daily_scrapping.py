@@ -43,6 +43,10 @@ def extract_all_products(url, max_pages=30):
             break
 
         for section in sections:
+            # Menghitung jumlah bintang penuh (rating)
+            full_stars_margin = section.find_all('i', class_='icon-ic_big_star_full margin-right')
+            full_stars = section.find_all('i', class_='icon-ic_big_star_full')
+            star_count = len(full_stars_margin) + (1 if len(full_stars) > len(full_stars_margin) else 0)  # Tambahkan bintang kelima jika ada
             # Extract information based on provided class names
             username_tag = section.find('p', class_='profile-username')
             age_tag = section.find('p', class_='profile-age')
@@ -61,7 +65,8 @@ def extract_all_products(url, max_pages=30):
                 "review_content": review_content_tag.text.strip() if review_content_tag else None,
                 "usage_period": usage_period_tag.text.strip() if usage_period_tag else None,
                 "purchase_point": purchase_point_tag.text.strip() if purchase_point_tag else None,
-                "recommend": recommend_tag.text.strip() if recommend_tag else None
+                "recommend": recommend_tag.text.strip() if recommend_tag else None,
+                "rating_count": star_count  # Menyimpan jumlah bintang penuh
             })
 
         # Try to click the "Next" button to move to the next page
@@ -99,15 +104,20 @@ def scrape_multiple_urls(configurations):
 # Daftar konfigurasi scraping
 scraping_configs = [
     {
-        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydramax-c-sunscreen-serum-spf-50-pa-blueloght-protection-brightening-1",
-        "max_pages": 2,
-        "output_file": "Hydramax_C_Sunscreen.csv"
+        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/azarine-calm-my-acne-sunscreen-moisturizer-1",
+        "max_pages": 30,
+        "output_file": "Review Azarine Calm My Acne Sunscreen Moisturizer.csv"
     },
     {
-        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydrashoothe-sunscreen-gel-spf45-3",
-        "max_pages": 3,
-        "output_file": "Hydrashoothe_Sunscreen.csv"
+        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydramax-c-sunscreen-serum-spf-50-pa-blueloght-protection-brightening-1",
+        "max_pages": 19,
+        "output_file": "Review Azarine Hydramax C Sunscreen Serum.csv"
     },
+    # {
+    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydrashoothe-sunscreen-gel-spf45-3",
+    #     "max_pages": 3,
+    #     "output_file": "Review Azarine Hydrashoote Sunscreen Gel.csv"
+    # },
 ]
 
 # Jalankan scraping
