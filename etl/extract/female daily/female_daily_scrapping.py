@@ -7,7 +7,7 @@ import os
 
 driver = webdriver.Chrome()
 
-def extract_all_products(url, max_pages=30):
+def extract_all_products(url, max_pages):
     """
     Fungsi untuk mengekstrak produk dari halaman web tertentu.
     :param url: URL dari halaman web yang akan di-scrape.
@@ -124,11 +124,11 @@ scraping_configs = [
     #     "max_pages": 19,
     #     "output_file": "Review Azarine Hydramax C Sunscreen Serum.csv"
     # },
-    # {
-    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydrashoothe-sunscreen-gel-spf45-3",
-    #     "max_pages": 3,
-    #     "output_file": "Review Azarine Hydrashoote Sunscreen Gel.csv"
-    # },
+    {
+        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/azarine-cosmetic/hydrashoothe-sunscreen-gel-spf45-3?cat=&cat_id=0&age_range=&skin_type=&skin_tone=&skin_undertone=&hair_texture=&hair_type=&order=newest&page=165",
+        "max_pages": 74,
+        "output_file": "Review Azarine Hydrashoote Sunscreen Gel 3.csv"
+    },
     # {
     #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-whitening-milk",
     #     "max_pages": 29,
@@ -139,11 +139,11 @@ scraping_configs = [
     #     "max_pages": 9,
     #     "output_file": "Review Skinaqua UV Moisture Gel.csv"  
     # },
-    {
-        "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-moisture-milk",
-        "max_pages": 101,
-        "output_file": "Review Skinaqua UV Moisture Milk.csv" 
-    }
+    # {
+    #     "url": "https://reviews.femaledaily.com/products/moisturizer/sun-protection-1/skin-aqua/uv-moisture-milk",
+    #     "max_pages": 101,
+    #     "output_file": "Review Skinaqua UV Moisture Milk.csv" 
+    # }
 
 ]
 
