@@ -1,0 +1,146 @@
+2024-11-17 18:54:21,901 - Tidak ada data Female Daily yang cocok untuk azarine azarine hm-c sunsc srm spf50 pa++++ 40ml. Melewati...
+2024-11-17 18:54:21,901 - Tidak ada data Female Daily yang cocok untuk calm my acne sunscreen moisturiser spf 35 pa+++. Melewati...
+2024-11-17 18:54:21,901 - Tidak ada data Female Daily yang cocok untuk hydrashoothe sunscreen gel spf45+++. Melewati...
+2024-11-17 18:54:21,901 - Tidak ada data Female Daily yang cocok untuk skin aqua skin aqua uv whitening milk spf 50 40ml. Melewati...
+2024-11-17 18:54:21,901 - Tidak ada data Female Daily yang cocok untuk skin aqua super moisture milk sunscreen pa++++ 40ml. Melewati...
+2024-11-17 18:54:21,902 - Tidak ada data yang berhasil digabungkan.
+2024-11-17 18:54:29,364 - Tidak ada data Female Daily yang cocok untuk azarine azarine hm-c sunsc srm spf50 pa++++ 40ml. Melewati...
+2024-11-17 18:54:29,364 - Tidak ada data Female Daily yang cocok untuk calm my acne sunscreen moisturiser spf 35 pa+++. Melewati...
+2024-11-17 18:54:29,365 - Tidak ada data Female Daily yang cocok untuk hydrashoothe sunscreen gel spf45+++. Melewati...
+2024-11-17 18:54:29,365 - Tidak ada data Female Daily yang cocok untuk skin aqua skin aqua uv whitening milk spf 50 40ml. Melewati...
+2024-11-17 18:54:29,365 - Tidak ada data Female Daily yang cocok untuk skin aqua super moisture milk sunscreen pa++++ 40ml. Melewati...
+2024-11-17 18:54:29,366 - Tidak ada data yang berhasil digabungkan.
+2024-11-17 19:04:45,208 - Tidak ada data Female Daily yang cocok untuk azarine azarine hm-c sunsc srm spf50 pa++++ 40ml. Melewati...
+2024-11-17 19:04:45,208 - Tidak ada data Female Daily yang cocok untuk calm my acne sunscreen moisturiser spf 35 pa+++. Melewati...
+2024-11-17 19:04:45,208 - Tidak ada data Female Daily yang cocok untuk hydrashoothe sunscreen gel spf45+++. Melewati...
+2024-11-17 19:04:45,208 - Tidak ada data Female Daily yang cocok untuk skin aqua skin aqua uv whitening milk spf 50 40ml. Melewati...
+2024-11-17 19:04:45,208 - Tidak ada data Female Daily yang cocok untuk skin aqua super moisture milk sunscreen pa++++ 40ml. Melewati...
+2024-11-17 19:04:45,208 - Tidak ada data yang berhasil digabungkan.
+2024-11-17 19:08:47,255 - Tidak ada data Female Daily yang cocok untuk azarine azarine hm-c sunsc srm spf50 pa++++ 40ml. Melewati...
+2024-11-17 19:08:47,256 - Tidak ada data Female Daily yang cocok untuk calm my acne sunscreen moisturiser spf 35 pa+++. Melewati...
+2024-11-17 19:08:47,256 - Tidak ada data Female Daily yang cocok untuk hydrashoothe sunscreen gel spf45+++. Melewati...
+2024-11-17 19:08:47,256 - Tidak ada data Female Daily yang cocok untuk skin aqua skin aqua uv whitening milk spf 50 40ml. Melewati...
+2024-11-17 19:08:47,256 - Tidak ada data Female Daily yang cocok untuk skin aqua super moisture milk sunscreen pa++++ 40ml. Melewati...
+2024-11-17 19:08:47,256 - Tidak ada data yang berhasil digabungkan.
+2024-11-17 19:15:37,998 - Tidak ada data Female Daily yang cocok untuk azarine azarine hm-c sunsc srm spf50 pa++++ 40ml. Melewati...
+2024-11-17 19:15:37,998 - Tidak ada data Female Daily yang cocok untuk calm my acne sunscreen moisturiser spf 35 pa+++. Melewati...
+2024-11-17 19:15:37,998 - Tidak ada data Female Daily yang cocok untuk hydrashoothe sunscreen gel spf45+++. Melewati...
+2024-11-17 19:15:37,998 - Tidak ada data Female Daily yang cocok untuk skin aqua skin aqua uv whitening milk spf 50 40ml. Melewati...
+2024-11-17 19:15:37,998 - Tidak ada data Female Daily yang cocok untuk skin aqua super moisture milk sunscreen pa++++ 40ml. Melewati...
+2024-11-17 19:15:38,000 - Tidak ada data yang berhasil digabungkan.
+2024-11-17 19:19:51,783 - Tidak ada data Female Daily yang cocok untuk azarine azarine hm-c sunsc srm spf50 pa++++ 40ml. Melewati...
+2024-11-17 19:19:51,784 - Tidak ada data Female Daily yang cocok untuk calm my acne sunscreen moisturiser spf 35 pa+++. Melewati...
+2024-11-17 19:19:51,784 - Tidak ada data Female Daily yang cocok untuk hydrashoothe sunscreen gel spf45+++. Melewati...
+2024-11-17 19:19:51,784 - Tidak ada data Female Daily yang cocok untuk skin aqua skin aqua uv whitening milk spf 50 40ml. Melewati...
+2024-11-17 19:19:51,785 - Tidak ada data Female Daily yang cocok untuk skin aqua super moisture milk sunscreen pa++++ 40ml. Melewati...
+2024-11-17 19:19:51,786 - Tidak ada data yang berhasil digabungkan.
+2024-11-17 19:31:31,036 - Menggabungkan data untuk: Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 19:31:31,049 - Berhasil membaca file: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv
+2024-11-17 19:31:31,059 - Berhasil membaca file: FemaleDaily_Review Azarine Calm My Acne Sunscreen Moisturizer.csv
+2024-11-17 19:31:31,063 - Berhasil membaca file: pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:31:31,092 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 19:31:31,092 - Menggabungkan data untuk: Merged_Azarine_Hydramax_C.csv
+2024-11-17 19:31:31,101 - Berhasil membaca file: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv
+2024-11-17 19:31:31,103 - Berhasil membaca file: pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:31:31,116 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Azarine_Hydramax_C.csv
+2024-11-17 19:31:31,116 - Menggabungkan data untuk: Merged_Azarine_Hydrashoote.csv
+2024-11-17 19:31:31,128 - Berhasil membaca file: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel 2.csv
+2024-11-17 19:31:31,135 - Berhasil membaca file: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv
+2024-11-17 19:31:31,158 - Berhasil membaca file: pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:31:31,174 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Azarine_Hydrashoote.csv
+2024-11-17 19:31:31,175 - Menggabungkan data untuk: Merged_Skinaqua_UV_Moisture_Gel.csv
+2024-11-17 19:31:31,210 - Berhasil membaca file: FemaleDaily_Review Skinaqua UV Moisture Gel.csv
+2024-11-17 19:31:31,215 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Skinaqua_UV_Moisture_Gel.csv
+2024-11-17 19:31:31,215 - Menggabungkan data untuk: Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 19:31:31,242 - Berhasil membaca file: pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:31:31,254 - Berhasil membaca file: FemaleDaily_Review Skinaqua UV Whitening Milk.csv
+2024-11-17 19:31:31,273 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 19:31:31,274 - Menggabungkan data untuk: Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 19:31:31,330 - Berhasil membaca file: pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:31:31,337 - Berhasil membaca file: FemaleDaily_Review Skinaqua UV Moisture Milk.csv
+2024-11-17 19:31:31,350 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 19:35:02,271 - Menggabungkan data untuk: Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 19:35:02,280 - Berhasil membaca file: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv
+2024-11-17 19:35:02,286 - Berhasil membaca file: FemaleDaily_Review Azarine Calm My Acne Sunscreen Moisturizer.csv
+2024-11-17 19:35:02,292 - Berhasil membaca file: pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:35:02,310 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 19:35:02,311 - Menggabungkan data untuk: Merged_Azarine_Hydramax_C.csv
+2024-11-17 19:35:02,318 - Berhasil membaca file: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv
+2024-11-17 19:35:02,323 - Berhasil membaca file: pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:35:02,333 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Azarine_Hydramax_C.csv
+2024-11-17 19:35:02,334 - Menggabungkan data untuk: Merged_Azarine_Hydrashoote.csv
+2024-11-17 19:35:02,342 - Berhasil membaca file: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel 2.csv
+2024-11-17 19:35:02,347 - Berhasil membaca file: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv
+2024-11-17 19:35:02,350 - Berhasil membaca file: pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:35:02,364 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Azarine_Hydrashoote.csv
+2024-11-17 19:35:02,364 - Menggabungkan data untuk: Merged_Skinaqua_UV_Moisture_Gel.csv
+2024-11-17 19:35:02,368 - Berhasil membaca file: FemaleDaily_Review Skinaqua UV Moisture Gel.csv
+2024-11-17 19:35:02,375 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Skinaqua_UV_Moisture_Gel.csv
+2024-11-17 19:35:02,375 - Menggabungkan data untuk: Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 19:35:02,378 - Berhasil membaca file: pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:35:02,387 - Berhasil membaca file: FemaleDaily_Review Skinaqua UV Whitening Milk.csv
+2024-11-17 19:35:02,402 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 19:35:02,402 - Menggabungkan data untuk: Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 19:35:02,416 - Berhasil membaca file: pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:35:02,423 - Berhasil membaca file: FemaleDaily_Review Skinaqua UV Moisture Milk.csv
+2024-11-17 19:35:02,435 - Hasil gabungan disimpan di c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\processed_data\Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 19:35:48,768 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:35:48,796 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Azarine Calm My Acne.csv
+2024-11-17 19:35:48,796 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:35:48,837 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged Azarine Hydramax C.csv
+2024-11-17 19:35:48,837 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:35:48,869 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged Azarine Hydrashoote.csv
+2024-11-17 19:35:48,869 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:35:48,901 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged Skinaqua Moisture Milk.csv
+2024-11-17 19:35:48,901 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:35:48,937 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged Skinaqua Whitening Milk.csv
+2024-11-17 19:37:19,612 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:37:19,628 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Azarine Calm My Acne.csv
+2024-11-17 19:37:19,630 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:37:19,643 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Azarine Hydramax C.csv
+2024-11-17 19:37:19,643 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:37:19,693 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Azarine Hydrashoote.csv
+2024-11-17 19:37:19,693 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:37:19,707 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Skinaqua Moisture Milk.csv
+2024-11-17 19:37:19,707 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:37:19,721 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Skinaqua Whitening Milk.csv
+2024-11-17 19:42:11,886 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:42:11,908 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Azarine Calm My Acne.csv
+2024-11-17 19:42:11,909 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:42:11,923 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Azarine Hydramax C.csv
+2024-11-17 19:42:11,924 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:42:11,975 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Azarine Hydrashoote.csv
+2024-11-17 19:42:11,975 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:42:11,990 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Skinaqua Moisture Milk.csv
+2024-11-17 19:42:11,990 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:42:12,009 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged Skinaqua Whitening Milk.csv
+2024-11-17 19:45:26,202 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:45:26,279 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 19:45:26,284 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:45:26,304 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Azarine_Hydramax_C.csv
+2024-11-17 19:45:26,305 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:45:26,326 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Azarine_Hydrashoote.csv
+2024-11-17 19:45:26,326 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:45:26,346 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 19:45:26,347 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:45:26,375 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 19:47:45,208 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:47:45,241 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 19:47:45,241 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:47:45,261 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Azarine_Hydramax_C.csv
+2024-11-17 19:47:45,263 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:47:45,286 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Azarine_Hydrashoote.csv
+2024-11-17 19:47:45,286 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:47:45,311 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 19:47:45,312 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:47:45,342 - Hasil gabungan disimpan di: c:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\final_data\Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 19:47:55,781 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 19:47:55,809 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 19:47:55,811 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 19:47:55,832 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Hydramax_C.csv
+2024-11-17 19:47:55,833 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 19:47:55,888 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Hydrashoote.csv
+2024-11-17 19:47:55,888 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 19:47:55,911 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 19:47:55,912 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 19:47:55,932 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Whitening_Milk.csv
