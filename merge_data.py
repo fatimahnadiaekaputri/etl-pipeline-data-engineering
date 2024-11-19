@@ -63,7 +63,7 @@ try:
             pytrends_df = pd.read_csv(pytrends_file_path)
 
             # Lakukan merge berdasarkan kolom 'date'
-            merged_df = pd.merge(female_df, pytrends_df, on="date", how="outer")  # Gunakan 'outer' agar semua data muncul
+            merged_df = pd.merge(female_df, pytrends_df, on="date", how="inner")  # Gunakan 'outer' agar semua data muncul
 
             # Simpan hasil gabungan
             merged_df.to_csv(output_file_path, index=False)

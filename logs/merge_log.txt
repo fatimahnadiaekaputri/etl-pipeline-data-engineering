@@ -144,3 +144,23 @@
 2024-11-17 19:47:55,911 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Moisture_Milk.csv
 2024-11-17 19:47:55,912 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
 2024-11-17 19:47:55,932 - Hasil gabungan disimpan di: C:\Users\msi\Downloads\TugasRekdat_ETL\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 23:13:19,288 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 23:13:19,351 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 23:13:19,351 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 23:13:19,409 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Hydramax_C.csv
+2024-11-17 23:13:19,410 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 23:13:19,443 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Hydrashoote.csv
+2024-11-17 23:13:19,444 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 23:13:19,487 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 23:13:19,487 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 23:13:19,534 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Whitening_Milk.csv
+2024-11-17 23:25:56,967 - Menggabungkan: FemaleDaily_Azarine Calm My Acne Sunscreen Moisturizer.csv + pytrends_Calm My Acne Sunscreen Moisturiser SPF 35 PA+++.csv
+2024-11-17 23:25:56,980 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Calm_My_Acne.csv
+2024-11-17 23:25:56,981 - Menggabungkan: FemaleDaily_Review Azarine Hydramax C Sunscreen Serum.csv + pytrends_Azarine Azarine Hm-c Sunsc Srm Spf50 Pa++++ 40ml.csv
+2024-11-17 23:25:56,990 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Hydramax_C.csv
+2024-11-17 23:25:56,990 - Menggabungkan: FemaleDaily_Review Azarine Hydrashoote Sunscreen Gel.csv + pytrends_Hydrashoothe Sunscreen Gel Spf45+++.csv
+2024-11-17 23:25:57,001 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Azarine_Hydrashoote.csv
+2024-11-17 23:25:57,001 - Menggabungkan: FemaleDaily_Review Skinaqua UV Moisture Milk.csv + pytrends_Skin Aqua Super Moisture Milk Sunscreen PA++++ 40mL.csv
+2024-11-17 23:25:57,017 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Moisture_Milk.csv
+2024-11-17 23:25:57,018 - Menggabungkan: FemaleDaily_Review Skinaqua UV Whitening Milk.csv + pytrends_Skin Aqua Skin Aqua Uv Whitening Milk Spf 50 40ml.csv
+2024-11-17 23:25:57,030 - Hasil gabungan disimpan di: D:\kuliah\semester 5\data engineer\tugas akhir\etl-pipeline-data-engineering\merge_data\Merged_Skinaqua_Whitening_Milk.csv
